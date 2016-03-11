@@ -41,7 +41,7 @@ void killProcessByName(const char *filename) {
 	TODO: Fix hostname stripping which have ^ symbol without colour codes
 */
 string strip_chars(string str) {
-	bool rem = true;
+	bool rem = false;
 	string newstr;
 	// Loop through every character looking for ^
 	for (unsigned int i = 0; i < str.length(); i++) {
