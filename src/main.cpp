@@ -119,7 +119,7 @@ int main(int argc, char **argv) {
 		}
 	}	
 	else {
-		cout << "Error opening \"guest.txt\" file. If LFS running and conncted to a host?" << endl;
+		cout << "Error opening \"guest.txt\" file. Is LFS running and conncted to a host?" << endl;
 		system("pause");
 	}
 	return 0;
