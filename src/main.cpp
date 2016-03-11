@@ -118,6 +118,9 @@ int main(int argc, char **argv) {
 			this_thread::sleep_for(chrono::seconds(PAUSE_TIME));
 		}
 	}	
-	else cout << "Error opening \"guest.txt\" file. If LFS running and conncted to a host?" << endl;
+	else {
+		cout << "Error opening \"guest.txt\" file. If LFS running and conncted to a host?" << endl;
+		system("pause");
+	}
 	return 0;
 }
